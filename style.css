@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+canvas {
+  display: block;
+  border: 5px solid lightgrey;
+  margin-top: 10%;
+  margin-bottom: 25%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+}
+#pace{
+  width: 205px;
+  border-radius: 7px;
+  font-size: 17px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+text{
+  z-index: 100;
+}
+#pace{
+  font-family: monospace;
+}
